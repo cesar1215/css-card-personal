@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+      background: #d4d7e0;
+      line-height: 1.6;
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: #FFF;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    transition: all .5s;
+    z-index: -1;
+}
+
+.card-container{
+    padding: 40px;
+}
+
+.portada{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.card:hover{
+      box-shadow: 0 20px 70px rgba(19, 12, 12, 0.5);
+}
+
+.img{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 8%;
+    left: 32.5%;
+    border: 6px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img img{
+    width: 100%;  
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+h2{
+    font-size: 29px;
+    color: #262626;
+}
+
+span{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #406ff0;
+    width: 130px;
+    margin: 0 auto;
+    border: 3px solid #406ff0;
+    padding: 5px 11px;
+    border-radius: 5px;
+    display: block;
+}
+
+
+p{
+    color: #262626;
+    margin: 20px 0;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: all .5s;
+    background: #AAA;
+    padding: 13px 15px;
+    border-radius: 50%;
+}
+
+
+ul li a:hover{
+    transform: rotateY(360deg) scale(2);
+}
+
+ul li:nth-child(1) a:hover{
+    background:#3b5998;
+    background-clip: text;
+    color: #FFF;
+}
+
+ul li:nth-child(2) a:hover{
+    background: #00ACEE;
+    background-clip: text;
+    color: #FFF;
+}
+
+ul li:nth-child(3) a:hover{
+    background-image:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    background-clip: text;
+    color: #FFF;
+}
+
+ul li:nth-child(4) a:hover{
+    background:#ff0000;
+    background-clip: text;
+    color: #FFF;
+}
+
+
+
+.icono{
+    width: 100px;
+}
